@@ -1,0 +1,35 @@
+Start testing: Jun 02 00:12 PDT
+----------------------------------------------------------
+1/2 Testing: TutorialRuns
+1/2 Test: TutorialRuns
+Command: "/home/aperjump/Tutorial/build/Tutorial" "25"
+Directory: /home/aperjump/Tutorial/build
+"TutorialRuns" start time: Jun 02 00:12 PDT
+Output:
+----------------------------------------------------------
+The square root of 25 is 5
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"TutorialRuns" end time: Jun 02 00:12 PDT
+"TutorialRuns" time elapsed: 00:00:00
+----------------------------------------------------------
+
+2/2 Testing: TutorialComps25
+2/2 Test: TutorialComps25
+Command: "/home/aperjump/Tutorial/build/Tutorial" "25"
+Directory: /home/aperjump/Tutorial/build
+"TutorialComps25" start time: Jun 02 00:12 PDT
+Output:
+----------------------------------------------------------
+The square root of 25 is 5
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"TutorialComps25" end time: Jun 02 00:12 PDT
+"TutorialComps25" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Jun 02 00:12 PDT
