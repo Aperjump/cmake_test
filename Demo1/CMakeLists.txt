@@ -7,10 +7,18 @@ set(Tutorial_VERSION_MINOR 0)
 
 # should we use our own math functions?
 include (${CMAKE_ROOT}/Modules/CheckFunctionExists.cmake)
+# check whether `log` and `exp` provided by libraries and store the result
+# in `HAVE_LOG` and `HAVE_EXP`.
 check_function_exists(log HAVE_LOG)
 check_function_exists(exp HAVE_EXP)
 
 # config header
+# copy `TutorialConfig.h.in` into `TutorialConfig.h`
+# and substitute corresponding variables
+#    #cmakedefine VAR ... 
+# -> #define VAR
+#    @VAR@
+# -> VAR
 configure_file (
     "${PROJECT_SOURCE_DIR}/TutorialConfig.h.in"
     "${PROJECT_BINARY_DIR}/TutorialConfig.h"
